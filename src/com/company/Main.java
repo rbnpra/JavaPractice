@@ -1,5 +1,7 @@
 package com.company;
 
+import java.util.Scanner;
+
 public class Main {
 
     public static void main(String[] args) {
@@ -29,12 +31,23 @@ public class Main {
 //        double sum = (double)firstNumber % secondNumber;
 //        System.out.println(sum);
 
-    int a = 12;
-//    a = a + 1; this statement increments by 1.
-    a++;
-        System.out.println(a++);
-        System.out.println(a);
-    a--;
-        System.out.println(a);
+//    int a = 12;
+////    a = a + 1; this statement increments by 1.
+//    a++;
+//        System.out.println(a++);
+//        System.out.println(a);
+//    a--;
+//        System.out.println(a);
+
+        // taking user input
+
+//        Scanner sc = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter your age: ");
+//        int age = sc.nextInt();
+//        float age = sc.nextFloat();
+        String name = sc.nextLine();
+
+        System.out.println(name);
     }
 }
