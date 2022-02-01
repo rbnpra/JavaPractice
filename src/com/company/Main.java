@@ -155,14 +155,28 @@ public class Main {
 //        }
 
 //        int a [] [] = new int [2] [3];
-         int a[] [] = {
-                 {
-                         1, 2
-                 }, {
-                        3, 4
-                 }
-         };
-        System.out.println(a[0] [1]);
-         }
+//         int a[] [] = {
+//                 {
+//                         1, 2
+//                 }, {
+//                        3, 4
+//                 }
+//         };
+//        System.out.println(a[0] [1]);
+
+        // Method  // function
+
+        //returnType functionName (arguments) {}
+
+        System.out.println(average(3, 6));
     }
+
+
+        static int average (int firstName, int secondNumber) {
+            int sum = firstName + secondNumber;
+            return sum / 2;
+        }
+
+    }
+
 
