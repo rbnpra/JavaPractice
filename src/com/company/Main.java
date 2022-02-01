@@ -62,19 +62,34 @@ public class Main {
 //            System.out.println("you can not vote");
 //        }
 //        System.out.println(19 != 18);
+//
+//        char grade = 'E';
+//        if(grade == 'A') {
+//            System.out.println("your grade is very good");
+//        }else if (grade =='B') {
+//            System.out.println("very good, keep learning");
+//        }else if (grade == 'D') {
+//            System.out.println("keep improving");
+//        } else {
+//            System.out.println("invalid grade");
+//        }
 
-        char grade = 'E';
-        if(grade == 'A') {
-            System.out.println("your grade is very good");
-        }else if (grade =='B') {
-            System.out.println("very good, keep learning");
-        }else if (grade == 'D') {
-            System.out.println("keep improving");
-        } else {
-            System.out.println("invalid grade");
+//       switch case
+
+        char grade = 'D';
+        switch(grade) {
+            case 'A':
+                System.out.println("your grade is very good");
+                break;
+            case 'B':
+                System.out.println("very good, keep learning");
+                break;
+            case 'C':
+                    System.out.println("keep improving");
+            case 'D':
+                System.out.println("invalid grade");
+
+
         }
-
-       
-
     }
 }
