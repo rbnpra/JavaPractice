@@ -1,5 +1,6 @@
 package com.company;
 
+import java.lang.reflect.Array;
 import java.util.Scanner;
 
 public class Main {
@@ -130,12 +131,38 @@ public class Main {
 //            a++;
 //        } while (a > 100);
 
-        int a = 23;
-        while(a <= 100) {
-            a++;
-            if (a == 65) continue;
-            System.out.println(a);
+//        int a = 23;
+//        while(a <= 100) {
+//            a++;
+//            if (a == 65) continue;
+//            System.out.println(a);
+//
+//        }
 
-        }
+//        Array
+        // 23, 12, 56, 34, 99
+//        int marks [] = new int [5];
+//        marks[0] = 23;
+//        marks[1] = 12;
+//        marks[2] = 56;
+//        marks[3] = 34;
+//        marks[4] = 99;
+
+//        int marks [] = {23, 12, 56, 34, 99, 12, 55};
+//
+//        for (int i = 0; i < marks.length; i++) {
+//            System.out.println(marks [i]);
+//        }
+
+//        int a [] [] = new int [2] [3];
+         int a[] [] = {
+                 {
+                         1, 2
+                 }, {
+                        3, 4
+                 }
+         };
+        System.out.println(a[0] [1]);
+         }
     }
-}
+
