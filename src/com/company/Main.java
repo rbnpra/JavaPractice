@@ -42,12 +42,39 @@ public class Main {
         // taking user input
 
 //        Scanner sc = new Scanner(System.in);
-        Scanner sc = new Scanner(System.in);
-        System.out.println("Enter your age: ");
-//        int age = sc.nextInt();
-//        float age = sc.nextFloat();
-        String name = sc.nextLine();
+//        Scanner sc = new Scanner(System.in);
+//        System.out.println("Enter your age: ");
+////        int age = sc.nextInt();
+////        float age = sc.nextFloat();
+//        String name = sc.nextLine();
+//
+//        System.out.println(name);
 
-        System.out.println(name);
+
+//Conditional Operator
+//        int age = 12;
+//
+//        // >, < >=, ==, !=
+//
+//        if (age > 18) {
+//            System.out.println("you can vote");
+//        } else {
+//            System.out.println("you can not vote");
+//        }
+//        System.out.println(19 != 18);
+
+        char grade = 'E';
+        if(grade == 'A') {
+            System.out.println("your grade is very good");
+        }else if (grade =='B') {
+            System.out.println("very good, keep learning");
+        }else if (grade == 'D') {
+            System.out.println("keep improving");
+        } else {
+            System.out.println("invalid grade");
+        }
+
+       
+
     }
 }
