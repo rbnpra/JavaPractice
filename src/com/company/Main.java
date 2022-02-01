@@ -76,20 +76,32 @@ public class Main {
 
 //       switch case
 
-        char grade = 'D';
-        switch(grade) {
-            case 'A':
-                System.out.println("your grade is very good");
-                break;
-            case 'B':
-                System.out.println("very good, keep learning");
-                break;
-            case 'C':
-                    System.out.println("keep improving");
-            case 'D':
-                System.out.println("invalid grade");
+//        char grade = 'D';
+//        switch(grade) {
+//            case 'A':
+//                System.out.println("your grade is very good");
+//                break;
+//            case 'B':
+//                System.out.println("very good, keep learning");
+//                break;
+//            case 'C':
+//                    System.out.println("keep improving");
+//            case 'D':
+//                System.out.println("invalid grade");
 
+        // logical operator
+//        int age = 500;
+//        if(age > 18 || age < 50) {
+//            System.out.println("you can vote");
+//        } else {
+//            System.out.println("you can not vote");
+//        }
 
+        int age = 22;
+        if( !(age > 18 )){
+            System.out.println("you can vote");
+        } else {
+            System.out.println("you can not vote");
         }
     }
 }
