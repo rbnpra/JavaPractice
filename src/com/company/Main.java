@@ -97,11 +97,45 @@ public class Main {
 //            System.out.println("you can not vote");
 //        }
 
-        int age = 22;
-        if( !(age > 18 )){
-            System.out.println("you can vote");
-        } else {
-            System.out.println("you can not vote");
+//        int age = 22;
+//        if( !(age > 18 )){
+//            System.out.println("you can vote");
+//        } else {
+//            System.out.println("you can not vote");
+
+        // Loops
+        // Three kinds of loop
+        // for, while, do-while
+
+//        for (int i = 0; i < 10; i++) {
+//            System.out.println("Rabin" + i);
+//        }
+
+//        int a = 23;
+//        while(true) {
+//            System.out.println(a);
+//            a++;
+//            if(a < 100) {
+//                System.out.println(a);
+//            }
+//        }
+//        int a = 23;
+//        while(a <= 100) {
+//            System.out.println(a);
+//            a++;
+//        }
+//        int a = 23;
+//        do {
+//            System.out.println(a);
+//            a++;
+//        } while (a > 100);
+
+        int a = 23;
+        while(a <= 100) {
+            a++;
+            if (a == 65) continue;
+            System.out.println(a);
+
         }
     }
 }
