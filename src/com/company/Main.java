@@ -168,15 +168,22 @@ public class Main {
 
         //returnType functionName (arguments) {}
 
-        System.out.println(average(3, 6));
+        System.out.println(average(8, 6));
+
     }
 
 
         static int average (int firstName, int secondNumber) {
             int sum = firstName + secondNumber;
             return sum / 2;
+
+
+
+//
+
         }
 
     }
+
 
 
